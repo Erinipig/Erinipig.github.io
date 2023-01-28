@@ -752,7 +752,7 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://pic3.zhimg.com/80/378da4d6e6ac67c5bcd1d63d76f65d81_1440w.jpg?source=1940ef5c')">
+  background-position: center center;position: relative;background-image:url('https://pic.imgdb.cn/item/63d4a801face21e9ef5d4e1a.png')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
@@ -963,7 +963,7 @@
 			clearInterval(this.time);
 		},
 		mounted() {
-			let prop = 'https://pic.imgdb.cn/item/63d4a801face21e9ef5d4e1a.png' || 'https://pic.imgdb.cn/item/63d49e15face21e9ef46bd24.jpg,https://pic.imgdb.cn/item/63d49e15face21e9ef46bd47.jpg,https://pic.imgdb.cn/item/63d49e16face21e9ef46be2a.jpg,https://pic.imgdb.cn/item/63d49e17face21e9ef46c219.jpg,https://pic.imgdb.cn/item/63d49e19face21e9ef46c6b3.jpg,https://pic.imgdb.cn/item/63d49e1aface21e9ef46c86a.jpg,https://pic.imgdb.cn/item/63d49e1eface21e9ef46d252.jpg,https://pic.imgdb.cn/item/63d49e1fface21e9ef46d4f4.jpg,https://pic.imgdb.cn/item/63d49e1fface21e9ef46d547.jpg,https://pic.imgdb.cn/item/63d49e21face21e9ef46da55.jpg,https://pic.imgdb.cn/item/63d49e27face21e9ef46e967.jpg,https://pic.imgdb.cn/item/63d49e27face21e9ef46eb2e.jpg';
+			let prop = 'https://pic3.zhimg.com/80/378da4d6e6ac67c5bcd1d63d76f65d81_1440w.jpg?source=1940ef5c' || 'https://pic.imgdb.cn/item/63d49e15face21e9ef46bd24.jpg,https://pic.imgdb.cn/item/63d49e15face21e9ef46bd47.jpg,https://pic.imgdb.cn/item/63d49e16face21e9ef46be2a.jpg,https://pic.imgdb.cn/item/63d49e17face21e9ef46c219.jpg,https://pic.imgdb.cn/item/63d49e19face21e9ef46c6b3.jpg,https://pic.imgdb.cn/item/63d49e1aface21e9ef46c86a.jpg,https://pic.imgdb.cn/item/63d49e1eface21e9ef46d252.jpg,https://pic.imgdb.cn/item/63d49e1fface21e9ef46d4f4.jpg,https://pic.imgdb.cn/item/63d49e1fface21e9ef46d547.jpg,https://pic.imgdb.cn/item/63d49e21face21e9ef46da55.jpg,https://pic.imgdb.cn/item/63d49e27face21e9ef46e967.jpg,https://pic.imgdb.cn/item/63d49e27face21e9ef46eb2e.jpg';
 			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
 			if (isImg) {
 				let img = prop.split(',');
